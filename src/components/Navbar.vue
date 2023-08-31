@@ -41,7 +41,7 @@ onMounted(() => {
         "
           :class="!showMenu ? 'translate-y-[-150%]' : '-translate-y-0'"
       >
-        <a @click="showMenu = false" class="text-white font-medium" href="#home">Home</a>
+        <a @click="showMenu = false" class="text-white font-medium" href="#hero">Home</a>
         <a @click="showMenu = false" class="text-white font-medium" href="#category">Category</a>
         <a @click="showMenu = false" class="text-white font-medium" href="#about">About</a>
         <a @click="showMenu = false" class="text-white font-medium" href="#trick-or-treat">Trick or Treat</a>
