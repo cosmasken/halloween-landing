@@ -21,16 +21,16 @@ const modules = [Pagination]
       class="pb-8"
   >
     <swiper-slide class="grid place-items-center">
-      <img src="../assets/home1-img.png" class="w-2/3 lg:w-[90%]" />
+        <img src="../assets/home1-img.png" class="w-2/3 lg:w-[90%]" alt="Slide image 1" />
     </swiper-slide>
     <swiper-slide class="grid place-items-center">
-      <img src="../assets/slider_img1.png" class="w-2/3 lg:w-[90%]" />
+      <img src="../assets/slider_img1.png" class="w-2/3 lg:w-[90%]" alt="Slide image 2"/>
     </swiper-slide>
     <swiper-slide class="grid place-items-center">
-      <img src="../assets/slider_img2.png" class="w-2/3 lg:w-[90%]" />
+      <img src="../assets/slider_img2.png" class="w-2/3 lg:w-[90%]" alt="Slide image 3" />
     </swiper-slide>
     <swiper-slide class="grid place-items-center">
-      <img src="../assets/slider_img3.png" class="w-2/3 lg:w-[90%]" />
+      <img src="../assets/slider_img3.png" class="w-2/3 lg:w-[90%] " alt="Slide image 4" />
     </swiper-slide>
     <swiper-slide class="grid place-items-center h-60">
       <img src="../assets/slider_img4.png" class="w-[90%]" />
@@ -39,10 +39,5 @@ const modules = [Pagination]
 </template>
 
 <style>
-.swiper-pagination-bullet {
-  @apply w-3 h-3 bg-white opacity-100
-}
-.swiper-pagination-bullet.swiper-pagination-bullet-active {
-  @apply rounded-xl w-6  bg-secondary
-}
+
 </style>
